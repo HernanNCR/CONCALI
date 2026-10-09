@@ -1,6 +1,31 @@
-El sistema desarrollado ayuda a la generación de documentos oficiales para el laboratorio de análisis de agua del estado de chiapas, guardando de manera local la información, 
-historiales y creación de los documentos, facilita la selección de analisis, parametros, creación de etiquetas y demás cosas que el mismo laboratorio quizo implementar
-durante el desarrollo, pensado para que la aplicacion funcionara de manera local entre individuos del area y aunque no se completó está etapa, la primer etapa de desarrollo
-quedó funcionando en las computadoras de la empresa
-Para el desarrollo de esta, utilizamos react para el frontend y la conexion al backend se desarrollo en express.js, de la mano de mysql como base de datos y electron
-para la conversión a la aplicacion de escritorio que necesitaban, usamos librerias para la creacion de los pdfs que necesitaban con pdf-kit.
+CONCALI — Sistema de gestión documental para laboratorio de análisis de agua
+
+CONCALI es una aplicación de escritorio desarrollada para apoyar la generación y gestión de documentos oficiales de un laboratorio de análisis de agua del estado de Chiapas, México.
+
+El sistema permite organizar información localmente, consultar historiales y facilitar tareas relacionadas con la selección de análisis, la administración de parámetros, la creación de etiquetas y la generación de documentos PDF, de acuerdo con los requerimientos definidos durante el desarrollo.
+
+- Gestión local de información e historiales.
+- Selección y organización de análisis y parámetros.
+- Creación y gestión de etiquetas.
+- Generación de documentos oficiales en formato PDF.
+- Interfaz de escritorio para el uso interno del personal del laboratorio.
+
+Tecnologías utilizadas
+
+ React - Desarrollo de la interfaz de usuario. 
+ Node.js  Entorno de ejecución del backend.
+ Express.js - Desarrollo de los servicios y la lógica del servidor. 
+ MySQL - Almacenamiento de la información. 
+ Electron - Integración de la aplicación como software de escritorio. 
+ PDFKit - Generación de documentos PDF. 
+
+Arquitectura general
+
+La aplicación integra un frontend desarrollado con React, un backend construido con Node.js y Express.js, una base de datos MySQL y Electron para su ejecución como aplicación de escritorio.
+
+PDFKit se utiliza para generar los documentos requeridos por los procesos del laboratorio.
+
+La primera etapa de desarrollo quedó funcional y fue implementada en las computadoras de la empresa. Una segunda etapa, orientada a ampliar el funcionamiento previsto para el sistema, no llegó a completarse.
+
+El proyecto representa una experiencia de desarrollo de software basada en requerimientos reales, integración de tecnologías y construcción de una solución para un entorno de trabajo específico.
+
