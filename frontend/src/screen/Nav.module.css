@@ -1,0 +1,30 @@
+.bodyNav{
+    width: 100%;
+    height: 70px;
+    background-color: red;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bodyNav article{
+    width: 30%;
+    height: 40px;
+    border: 1px solid black;
+    
+}
+
+.bodyNav .back{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: 20px;
+    cursor: pointer;
+}

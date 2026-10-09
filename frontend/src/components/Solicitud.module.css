@@ -1,0 +1,249 @@
+.bodyNav{
+    width: 870px;
+    height: 70px;
+    background-color: #262847;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bodyNav article{
+    width: 30%;
+    height: 40px;
+    background-color: #EEF0F6;
+}
+.bodyNav article select{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+.bodyNav .back{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #EEF0F6;
+}
+
+/* contenido */
+.p{
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+    filter: drop-shadow(0px 0px 5px black);
+}
+.solicitud{
+    width: 870px;
+    height: 550px;
+    display: flex;
+}
+.solicitud section{
+    width: 50%;
+    height: 550px;
+    /* border: 1px solid black; */
+}
+.form {
+    display: grid;
+    grid-template-columns: (2); /* Definición de 2 columnas: la primera ocupa el doble de espacio que la segunda */
+    grid-template-rows: repeat(8, auto);
+    grid-template-areas: 
+        "title title"
+        "numsolicitud numsolicitud"
+        "labo labo"
+        "proyecto proyecto"
+        "tipoproyecto tipoproyecto"
+        "muestro fecha"
+        "semana ejecucion"
+        "boton boton"; 
+    gap: 10px;
+}
+
+.p {
+    grid-area: title;
+    width: 100%;
+    text-align: center;
+}
+
+.numsolicitud {
+    grid-area: numsolicitud;
+}
+.Tipoproyecto{
+    grid-area: tipoproyecto;
+}
+.proyecto {
+    grid-area: proyecto;
+}
+
+.labo {
+    grid-area: labo;
+}
+
+.muestro {
+    grid-area: muestro;
+}
+
+.fecha {
+    grid-area: fecha;
+}
+
+.semana {
+    grid-area: semana;
+}
+
+.ejecucion {
+    grid-area: ejecucion;
+    font-size: 12px;
+}
+
+.boton {
+    grid-area: boton;
+}
+
+.text,
+.number,
+.date{
+    width: 50%;
+    height: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.errorBorder {
+    width: 40%;
+    height: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 3px solid red;
+    background-color: rgba(240,128,128,.2);
+}
+
+
+
+.checkbox{
+    width: 70%;
+    height: 25px;
+    border: 5px; 
+    margin: 5px 15px;
+}
+
+.boton{
+    width: 120px;
+    height: 35px;
+    border-radius: 4px;
+    margin: 5px 20px;
+    background-color: #11CD8E;
+    filter: brightness(.7);
+    transition: .5s;
+    cursor: pointer;
+}
+.boton:hover{
+    filter: brightness(1);
+    transition: .3s;
+}
+
+form div label{
+   margin: 0px 20px;
+}
+
+/* parametros */
+.parammetrosList{
+    overflow-y: scroll;
+
+}
+.parametro{
+    width: 95%;
+    height: 30px;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px 10px;
+}
+.parametro .nameParam{
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 0px;
+}
+.parametro .numParam{
+    width: 29%;
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+}
+
+/* ---------------------- */
+.PuntosM{
+    border: 1px solid black;
+    margin: 15px 0px 15px 0px;
+}
+.contenedorPuntosM{
+    width: 870px;
+    height: 550px;
+
+}
+
+.titlePM{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.titlePM .inputPM{
+    width: 60%;
+}
+
+.tableParametros{
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+}
+.tableParametros th, .tableParametros td{
+    height: 20px;
+    text-align: center;
+}
+.btnPM{
+    width: auto;
+    height: 35px;
+    border-radius: 4px;
+    margin: 5px 20px;
+    background-color: #11CD8E;
+    filter: brightness(.7);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.btnPM:hover{
+    filter: brightness(1);
+    transition: .3s;
+}

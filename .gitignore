@@ -1,0 +1,29 @@
+﻿# Dependencias
+node_modules/
+**/node_modules/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Compilaciones y archivos generados
+frontend/build/
+app_red/
+backend/pdfs/
+
+# Instaladores y paquetes pesados
+*.exe
+*.blockmap
+*.zip
+
+# Archivos temporales
+*.log
+.DS_Store
+Thumbs.db
+
+# Base de datos local: revisar y preparar una versión de ejemplo antes de publicar
+Concali/laboratoriodb.sql
+
+# Respaldo del repositorio Git del frontend
+frontend-git-backup/

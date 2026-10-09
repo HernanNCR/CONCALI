@@ -1,0 +1,486 @@
+.bodyNav{
+    width: 870px;
+    height: 70px;
+    background-color: #262847;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bodyNav article{
+    width: 40%;
+    height: 40px;
+    background-color: #EEF0F6;
+}
+.bodyNav article select{
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    margin: 0px;
+}
+
+.bodyNav .back{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #EEF0F6;
+}
+/* ------------------------- */
+
+.content{
+    overflow-y: scroll;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+.informacionPuntoMuestreo{
+    border: 1px solid black;
+    background-color: white;
+    margin: 20px;
+    /* height: 500px; */
+}
+
+.tablaGeneralPM tr th, .tablaRecipientesPM tr th{
+    font-size: 8px;
+}
+
+.inputTable{
+    width: 50px;
+   
+}
+
+.sectionTitle{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sectionTitle article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionTitle article input[type=number]{
+    width: 30px;
+    margin: 0px 10px;
+    text-align: center;
+}
+
+.sectionTitle article input[type=text], .sectionTitle article input[type=time]{
+    margin: 0px 10px;
+    text-align: center;
+}
+    
+.contentInfGnlDesActive{
+    background-color: lightgray;
+    width: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 0px;
+    opacity: 0;
+}
+.contentInfGnl{
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    width: 850px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+    transition: 1s ease-in-out 0s;
+}
+.titleIG{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contentInfGnl div{
+    width: 850px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+.datosInfGnl{
+    width: 45%;
+    height: 50px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* inputs */
+
+.date, .time, .select , .text {
+    width: 80px;
+    height: 20px;
+    border-radius: 5px;
+    margin: 0px 0px;
+}
+
+.boton{
+    width: auto;
+    height: 35px;
+    border-radius: 4px;
+    margin: 5px 20px;
+    background-color: #11CD8E;
+    filter: brightness(.7);
+    transition: .5s;
+    cursor: pointer;
+}
+.boton:hover{
+    filter: brightness(1);
+    transition: .3s;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+}
+
+.botones .back{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: 20px;
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+/* div de termometro */
+
+.content .divTermometro{
+    width: 100%;
+    height: 30px; 
+    display: flex;
+    justify-content: center;
+}
+.content .divTermometro select{
+    width: 50%;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+}
+
+.divTermometro{
+    width: 100%;
+    height: 550px;
+}
+
+.section{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 3px solid black;
+}
+.section article{
+    width: 60%;
+    justify-content: center;
+    display: flex;
+}
+
+.inputTermometro{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 0px 5px;
+    border: 1px solid rgba(0,0,0,.5);
+}
+
+
+/* ----------------------- */
+
+.bodyMuestras{
+    width: 870px;
+    height: 600px;
+}
+
+.muestras{
+    background-color: white;
+    height: auto;
+    padding: 10px 20px;
+    margin: 20px;
+    
+}
+.tableMuestras tr th, .tableMuestras tr td{
+    width: 10px;
+    font-size: 10px;
+    padding: 10px;
+}
+
+
+
+
+.prueba{
+    background-color: white;
+    width: 860px;
+    height: 590px;
+    border: 10px solid black;
+}
+
+.resultados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resultados article{
+    margin: 0pc 30px;
+}
+
+div input{
+    margin: 10px 20px;
+}
+
+
+/* ------------------------------- */
+.body{
+    background-color: blue;
+    width: 885px;
+    height: 635px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.datos_generales{
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    width: 95%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    opacity: 1;
+    transition: 1s ease-in-out 0s;
+}
+.datos_generales_active{
+    height: 0px;
+    opacity: 0;
+}
+
+.datos_generales .article{
+    margin: 5px 0px;
+}
+
+.datos_generales .div{
+    border-top: 3px solid black;
+    height: 220px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.datos_generales .div .articleDiv{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.1%;
+    height: 73px;
+}
+
+.articleDiv p{
+    font-weight: 700;
+
+}
+
+.articleDiv input,
+.articleDiv select{
+    margin: 0px;
+    width: 150px;
+}
+
+.content_muestras{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    margin: 10px 0px;
+}
+
+.muestraHcampo{
+    background-color: white;
+    width: 90%;
+    height: auto;
+    margin: 15px 0px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: (4); 
+    grid-template-rows: repeat(8, auto);
+    grid-template-areas: 
+        "id id id rec"
+        "datos datos datos rec"
+        "datos datos datos rec"
+        "datos datos datos rec"
+        "datos datos datos rec"
+        "datos datos datos rec"
+        "datos datos datos rec"
+        "datos datos datos rec"
+        "datos datos datos rec";
+    gap: 10px;
+    border-radius: 10px;
+}
+
+/* informacion de arriba */
+.identificacionMuestra{
+    grid-area: id;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 1px 1px 5px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.identificacionMuestra article{
+    display: flex;
+    font-size: 10px;
+    margin:5px;
+}
+
+.identificacionMuestra article input{
+    margin: 3px;
+}
+.identificacionMuestra article input[type=number] {
+    margin: 3px;
+    height: 20px;
+    width: 30px;
+}
+
+/* recipientes */
+
+.divRecipientes{
+    grid-area: rec;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.divRecipientes .titleRec{
+    text-align: center;
+    font-size: 10px;
+}
+
+.divRecipientes .recipiente{
+    font-size: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.divRecipientes .recipiente .nombreRec{
+    width: 40px;
+    text-align: center;
+}
+.divRecipientes .recipiente input{
+    width: 30px;
+}
+
+/* analisis */
+.datosAnalisis{
+    grid-area: datos;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px black;
+    display: flex;
+    border-radius: 10px;
+}
+
+.analisis{
+    width: 30%;
+    height: 100%;
+}
+
+.articleAnalisis{
+    font-size: 11px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3px 0px;
+    
+}
+.articleAnalisis textarea{
+    max-width: 150px;
+    max-height: 30px;
+    min-width: 150px;
+    min-height: 30px;
+    margin: 10px;
+}
+.articleAnalisis select{
+    width: 90%;
+    margin: 5px;
+}
+.articleAnalisis input[type=number]{
+    width: 50px;
+    margin: 0px 10px;
+}
+.articleAnalisis input[type=checkbox]{
+    margin: 0px 10px;
+    width: 20px;
+    height: 20px;
+}
+.datosTriples{
+    width: 70%;
+    height: 100%;
+}
+
+.articleDT{
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+}
+.section_articleDT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_articleDT input{
+    width: 100px;
+    margin: 0px 5px;
+}

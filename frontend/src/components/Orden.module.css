@@ -1,0 +1,129 @@
+.bodyNav{
+    width: 870px;
+    height: 70px;
+    /* background-color: #262847; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bodyNav article{
+    width: 30%;
+    height: 40px;
+    
+}
+.bodyNav article select{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+.bodyNav .back{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #262847;
+    color: white;
+    box-shadow: -5px 5px 1px rgba(0,0,0,.5);
+}
+/* contenido orden */
+
+.contentOrden{
+    width: 870px;
+    height: 550px;
+    /* flex-wrap: wrap; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.contentOrden article{
+    width: 80%;
+    height: 85px;
+    background-color: rgba(180, 188, 209,.25);
+    border-radius: 10px;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contentOrden article .img,
+.contentOrden article .num,
+.contentOrden article .date,
+.contentOrden article .acciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contentOrden article .img{
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    background-color: rgb(180, 188, 209);
+}
+.contentOrden article .num{
+    width: 50%;
+    height: 85px;
+    flex-direction: column;
+    align-items: start;
+}
+
+.contentOrden article .date,
+.contentOrden article .acciones{
+    width: 120px;
+    height: 85px;
+    margin: 1px;
+}
+
+.numS{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 7px 0px;
+}
+.autorizacion{
+    font-size: 10px;
+    font-weight: 100;
+    margin: 0px 10px;
+}
+
+.contentOrden article .date input{
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.contentOrden article .acciones button{
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    cursor: pointer;
+}
+
+.check{
+    background-color: #11CD8E; 
+}
+
+.drop{
+    background-color: #F47C84;
+}

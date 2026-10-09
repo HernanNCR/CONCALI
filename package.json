@@ -1,0 +1,61 @@
+
+
+{
+  "name": "concali",
+  "version": "1.0.0",
+  "description": "Aplicación Concali - Calidad del Agua",
+  "author": "NATANIEL",
+  "main": "main.js",
+  "scripts": {
+    "start": "concurrently \"npm start --prefix frontend\" \"electron .\"",
+    "build-render": "npm run build --prefix frontend",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.tuempresa.concali",
+    "asar": true,
+    "asarUnpack": [
+      "preload.js",
+      "backend/app.js",
+      "backend/public/**"
+    ],
+
+    "productName": "Concali",
+    "files": [
+      "**/*",
+      "!node_modules/*/{CHANGELOG.md,README.md,README,readme.md,readme}",
+      "!**/.*",
+      "!**/*.map",
+      "frontend/public/conagua.png",
+      "conagua-logo.ico"
+    ],
+    "directories": {
+      "buildResources": "frontend/src/assets"  
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "conagua-logo.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+  ,
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "electron": "^35.6.0",
+    "electron-builder": "^26.0.12",
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.0",
+    "pdfkit": "^0.16.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.4.1"
+  }
+}

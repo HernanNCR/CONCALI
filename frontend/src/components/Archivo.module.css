@@ -1,0 +1,210 @@
+.bodyNav{
+    width: 870px;
+    height: 70px;
+    background-color: #262847;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bodyNav article{
+    width: 30%;
+    height: 40px;
+}
+
+.bodyNav .back{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: #EEF0F6;
+}
+.body{
+    background-color: #262847;
+    display: flex;
+    width: 885px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: white;
+    height: 527px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+}
+.scroll{
+    height: 520px;
+    overflow-y: scroll;
+}
+.content_solicitud{
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.25);
+    box-shadow: 0px 0px 6px rgba(0,0,0,.25);
+    margin: 10px 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div .archivo{
+    width: 600px;
+    height: 80px;
+    border-radius: 5px;
+    /* border: 1px solid rgba(0,0,0,.25);
+    box-shadow: 0px 0px 6px rgba(0,0,0,.25); */
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    transition: .5s ease-in-out 0s;
+    
+}
+div .archivos{
+    width: 700px;
+    height: 90px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.25);
+    box-shadow: 0px 0px 6px rgba(0,0,0,.25);
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    transition: .5s ease-in-out 0s;
+    
+}
+div .archivo:hover{
+    background-color: #EFEFEF;
+    transition: .7s ease-in-out 0s;
+}
+
+.solicitud{
+    font-size: 18px;
+    font-weight: 500;
+}
+.modificacion{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: -15px;
+}
+.status{
+    font-size: 10px;
+    font-weight: 600;
+    height: auto;
+    width: auto;
+    padding: 5px 10px;
+    background-color: #EFEFEF;
+    color: black;
+    border-radius: 60px;
+}
+
+
+
+
+/* cuando presionen el boton pasará esto */
+
+
+.contentArch .informacionArchivo{
+    width: 700px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid rgba(0,0,0,.25);
+}
+.contentArch .informacionArchivo article{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    border: 1px solid rgba(0,0,0,.25);
+    box-shadow: 0px 0px 4px rgba(0,0,0,.25);
+    margin: 10px 20px;
+    border-radius: 4px ;
+    height: 45px;
+    font-weight: 300;
+}
+.informacionArchivo article button{
+    display: flex;
+    height: 35px;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+.contentArch{
+    height: 95px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 1s ease-in-out 0s;
+    overflow: hidden;
+}
+.contentArchMostrar{
+    height: 420px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 1s ease-in-out 0s;
+    overflow: hidden;
+}
+
+.contentArchMostrar .informacionArchivo{
+    width: 100%;
+    height: 300px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid rgba(0,0,0,.25);
+}
+.contentArchMostrar .informacionArchivo article{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    border: 1px solid rgba(0,0,0,.25);
+    box-shadow: 0px 0px 4px rgba(0,0,0,.25);
+    margin: 10px 20px;
+    border-radius: 4px ;
+    height: 45px;
+    font-weight: 300;
+}
+
+.solicitudesDesactivadas{
+    cursor: pointer;
+    font-weight: 500;
+    width: 300px;
+    text-align: center;
+}
+.solicitudesDesactivadas:hover{
+    color: #6670ff;
+}
+.solicitudesDesactivadas:active{
+    color: red;
+}
+
+
+

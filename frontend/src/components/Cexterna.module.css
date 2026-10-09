@@ -1,0 +1,160 @@
+.bodyNav{
+    width: 870px;
+    height: 70px;
+    /* background-color: #262847; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bodyNav article{
+    width: 30%;
+    height: 40px; 
+}
+.bodyNav .selectNumSolicitud .selectSolicitud{
+    width: 49%;
+    height: 40px;
+    text-align: center;
+}
+
+.bodyNav .back{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #262847;
+    color: white;
+    box-shadow: 5px 5px 1px rgba(0,0,0,.5);
+}
+
+/* contenidp Custodio Externa */
+.bodyPM{
+    width: 95%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+/* .tableCE{
+    background-color: blue;
+} */
+.nombrePM{
+    border: 1px solid rgba(0,0,0,.5);
+}
+.informacionPM{
+    height: auto;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;   
+}
+.nombrePM, .informacionPM,.muestradorInfo, .infoGnlCE{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contentCE{
+    height: 480px;
+    overflow-y: scroll;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;   
+}
+.nombreRecipiente{
+    width: 90px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+
+
+.observaciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+}
+.errorObservaciones,
+.errorParametros{
+    background-color: rgba(260,128,128,.2);
+    border: 2px solid red;
+}
+.observaciones div{
+    margin: 20px 10px;
+    padding: 20px 80px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 7px rgba(0,0,0,.5);
+}
+.observaciones textarea{
+    min-width: 350px;
+    max-width: 450px;
+    min-height: 70px;
+    max-height: 70px;
+    margin: 20px;
+    box-shadow: 5px 5px 7px rgba(0,0,0,.5);
+} 
+
+/* inputs */
+.checkbox{
+    width: 30px;
+    height: 30px;
+}
+.date,.time,.matriz,.agua{
+    width: 120px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.5);
+}
+
+.boton{
+    width: 120px;
+    height: 35px;
+    border-radius: 4px;
+    margin: 25px 20px;
+    background-color: #11CD8E;
+    filter: brightness(.7);
+    transition: .5s;
+    cursor: pointer;
+}
+.boton:hover{
+    filter: brightness(1); 
+    transition: .3s;
+}
+
+
+.inputMuestardorInfo{
+    margin: 20px;
+    width: 300px;
+    border-radius: 10px;
+    height: 25px;
+    text-align: center;   
+}
+
+.article_datosfinales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article_datosfinales select,
+.article_datosfinales input
+{
+    margin: 15px;
+}

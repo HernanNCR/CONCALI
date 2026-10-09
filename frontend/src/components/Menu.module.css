@@ -1,0 +1,184 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEF0F6;
+}
+/* .barra{
+    height: 300px;
+    width: 900px;
+    background-color: #262847;
+    position: fixed;
+    left: -10px;
+    right: -10px;
+    top: -50px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,.5);
+} */
+.Menu{
+    width: 810px;
+    height: 40px;
+    margin-top: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.Menu div{
+    background-color: #B4BCD1;
+    width: 148px;
+    height: 147px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px #00000080;
+    color: #262847;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform .4s;
+}
+.Menu div:hover{
+    box-shadow: 0px 10px 15px rgba(0,0,0,.5);
+    transform: scale(1.1);
+    transition: .3s;
+}
+.Menu div article{
+    margin: 20px 30px 0px 30px;
+
+}
+
+
+.marcoPrincipal{
+    width: 870px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentUser{
+    width: 400px;
+    height: 270px;
+    overflow: hidden;
+}
+
+.contentUser article{
+    width: 360px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contentUser .articleIcon{
+    flex-direction: column;
+}
+.contentUser article .select,
+.contentUser article .password{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+}
+.contentUser article .password{
+    width: 195px;
+    border: 1px solid #B4BCD1;
+    z-index: 2;
+}
+
+.contentUser article .selectDesactive{
+    opacity: 0;
+}
+
+
+.contentUserActive{
+    height: auto;
+}
+.contentUserActive article{
+    width: 360px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contentUserActive .articleIcon{
+    flex-direction: column;
+}
+.contentUserActive article .select,
+.contentUserActive article .password{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+}
+.contentUserActive article .password{
+    width: 195px;
+    border: 1px solid #B4BCD1;
+}
+
+.contentUserActive article .selectDesactive{
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+.btnSesion{
+    background-color: #262847;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: .3s ease-in-out 0s;
+    border: 1px solid #262847;
+    color: #262847;
+}
+.btnSesion:hover{
+    background-color: #B4BCD1;
+    transition: .5s ease-in-out 0s;
+}
+.btnSesion:active{
+    background-color: lightcoral;
+    transition: none;
+    /* border: none; */
+    box-shadow: 1px 1px 1px #262847;
+}
+
+.btnCerrarSesion{
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: 20px;
+    background-color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btnCerrarSesion .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+.btnCerrarSesion:hover{
+    box-shadow: 0px 10px 15px rgba(0,0,0,.5);
+    transform: scale(1.1);
+    transition: .3s;
+}
